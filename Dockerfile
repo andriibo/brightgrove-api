@@ -12,7 +12,7 @@ RUN npm ci --include=dev && npm cache clean --force
 
 COPY src src
 COPY db db
-COPY .env .  
+COPY .env .
 
 RUN npm run build
 RUN rm -rf src db

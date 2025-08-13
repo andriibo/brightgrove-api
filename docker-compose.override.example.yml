@@ -1,0 +1,7 @@
+services:
+  mysql:
+    container_name: brightgrove-mysql
+  backend:
+    container_name: brightgrove-backend
+  phpmyadmin:
+    container_name: brightgrove-phpmyadmin
